@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application">
+      <UniqueIdentifier>{F1A4822F-DD9D-A181-06D0-8606F227818D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Clouds">
+      <UniqueIdentifier>{8771C16E-F326-3A64-7C1B-343BE8CF3068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies">
+      <UniqueIdentifier>{848A76BB-F0A0-7451-3918-0073A56D45D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\GLEW">
+      <UniqueIdentifier>{22788074-0E72-A9C6-F7DE-3FD7E3770F33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\GLEW\include">
+      <UniqueIdentifier>{95A18CBC-81C7-5623-6A0D-DCEE56D27BEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\GLEW\include\GL">
+      <UniqueIdentifier>{D786A759-43F5-FCD8-8CDE-B7D8F88BF274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\GLFW">
+      <UniqueIdentifier>{43788074-2F72-A9C6-18DF-3FD704780F33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\GLFW\include">
+      <UniqueIdentifier>{B63297C0-A258-6127-8B9E-E6F2776386F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\glm">
+      <UniqueIdentifier>{D3B61B51-3F23-D74B-0817-6FA97442F9B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\glm\glm">
+      <UniqueIdentifier>{A2720C53-0E35-40DD-57E5-CE69C3E618BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\glm\glm\detail">
+      <UniqueIdentifier>{24E09AD2-1031-8614-3995-74D62545197E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\glm\glm\simd">
+      <UniqueIdentifier>{3EC41A84-2AEA-E4EA-1330-6AB6FFF409B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\imgui">
+      <UniqueIdentifier>{EE6A0907-5AA2-519E-63AC-B5C1CF627897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\irrklang">
+      <UniqueIdentifier>{2DF6E56A-1906-923B-82BF-F6596EEE80D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\irrklang\include">
+      <UniqueIdentifier>{A0FAE888-8C36-ECF2-F548-04EAE1A3940D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\File Handling">
+      <UniqueIdentifier>{02B36DEE-EE96-2E44-57F7-289743FA18C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Gameplay">
+      <UniqueIdentifier>{ED506581-5911-E1B7-224C-2A358ECB2594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Lighting">
+      <UniqueIdentifier>{73DBB978-DF9B-35AF-A8D6-7E2C14567A8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Maths">
+      <UniqueIdentifier>{1A9FBCCD-0657-FE1A-6F5E-D7765B35990B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Models">
+      <UniqueIdentifier>{21064586-8DBB-BD7B-16B0-B7528264B47F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Noise">
+      <UniqueIdentifier>{7B37D6CD-67EF-171B-D0F6-F076BCCDB20B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OpenGL Classes">
+      <UniqueIdentifier>{509550ED-BCF6-2DFB-4564-74ADB1C464BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Particle System">
+      <UniqueIdentifier>{9676DCFD-8205-66C7-2B24-7AC21792766D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Player">
+      <UniqueIdentifier>{8AE50C8D-F69A-8582-7F8F-7F59EB437C86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{948B5FDE-004C-DB14-C986-2492350620F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UI">
+      <UniqueIdentifier>{9B407134-0720-F0CF-1038-7BA67C965631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils">
+      <UniqueIdentifier>{0EA057CE-FA57-991B-635F-72774F36340C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World">
+      <UniqueIdentifier>{653979CE-51F1-BA1B-BAF8-9377A6CF550C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World\Structures">
+      <UniqueIdentifier>{38758F97-A4E1-4A92-6DD5-E2EFD9006DFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Application\Application.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Application\EventStructs.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Application\Events.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Application\PlatformSpecific.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Block.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BlockDatabase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Camera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Chunk.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ChunkMesh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Clouds\Cloud.h">
+      <Filter>Core\Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CubeRenderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLEW\include\GL\eglew.h">
+      <Filter>Core\Dependencies\GLEW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLEW\include\GL\glew.h">
+      <Filter>Core\Dependencies\GLEW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLEW\include\GL\glxew.h">
+      <Filter>Core\Dependencies\GLEW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLEW\include\GL\wglew.h">
+      <Filter>Core\Dependencies\GLEW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLFW\include\glfw3.h">
+      <Filter>Core\Dependencies\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\GLFW\include\glfw3native.h">
+      <Filter>Core\Dependencies\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\common.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\exponential.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\geometric.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\integer.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\matrix.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\packing.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\platform.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\trigonometric.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\glm\glm\simd\vector_relational.h">
+      <Filter>Core\Dependencies\glm\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imconfig.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imgui.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imgui_impl_glfw.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imgui_impl_opengl3.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imgui_internal.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imstb_rectpack.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imstb_textedit.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\imgui\imstb_truetype.h">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ESoundEngineOptions.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ESoundOutputDrivers.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_EStreamModes.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IAudioRecorder.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IAudioStream.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IAudioStreamLoader.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IFileFactory.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IFileReader.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IRefCounted.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISound.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundDeviceList.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundEffectControl.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundEngine.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundMixedOutputReceiver.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundSource.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_ISoundStopEventReceiver.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_IVirtualRefCounted.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_SAudioStreamFormat.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_irrKlangTypes.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\ik_vec3d.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\irrklang\include\irrKlang.h">
+      <Filter>Core\Dependencies\irrklang\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\File Handling\ChunkFileHandler.h">
+      <Filter>Core\File Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\File Handling\WorldFileHandler.h">
+      <Filter>Core\File Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FpsCamera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Gameplay\InventorySystem.h">
+      <Filter>Core\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Lighting\Lighting.h">
+      <Filter>Core\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Maths\Frustum.h">
+      <Filter>Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Models\Model.h">
+      <Filter>Core\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Noise\FastNoise.h">
+      <Filter>Core\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\CubeTextureMap.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\Fps.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\Framebuffer.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\GLDebug.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\IndexBuffer.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\Random.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\Shader.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\Texture.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\VertexArray.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\VertexBuffer.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OpenGL Classes\stb_image.h">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OrthographicCamera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Particle System\Particle.h">
+      <Filter>Core\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Particle System\ParticleSystem.h">
+      <Filter>Core\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Player\Player.h">
+      <Filter>Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Renderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Renderer2D.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TextureAtlas.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UI\GUI.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Defs.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Enums.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Logger.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Random.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Ray.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Raycast.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Timer.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Vertex.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\Biome.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\Skybox.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\Structures\WorldStructures.h">
+      <Filter>Core\World\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\World.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\WorldGenerator.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\World\WorldGeneratorType.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Application\Application.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Application\Events.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Application\PlatformSpecific.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Block.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\BlockDatabase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Camera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Chunk.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ChunkMesh.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Clouds\Cloud.cpp">
+      <Filter>Core\Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CubeRenderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\glm\glm\detail\dummy.cpp">
+      <Filter>Core\Dependencies\glm\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\glm\glm\detail\glm.cpp">
+      <Filter>Core\Dependencies\glm\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui_demo.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui_draw.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui_impl_glfw.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\imgui\main.cpp">
+      <Filter>Core\Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\File Handling\ChunkFileHandler.cpp">
+      <Filter>Core\File Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\File Handling\WorldFileHandler.cpp">
+      <Filter>Core\File Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FpsCamera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Gameplay\InventorySystem.cpp">
+      <Filter>Core\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Lighting\Lighting.cpp">
+      <Filter>Core\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Maths\Frustum.cpp">
+      <Filter>Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Models\Model.cpp">
+      <Filter>Core\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Noise\FastNoise.cpp">
+      <Filter>Core\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\CubeTextureMap.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\Fps.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\Framebuffer.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\GLDebug.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\IndexBuffer.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\Random.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\Shader.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\Texture.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\VertexArray.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\VertexBuffer.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OpenGL Classes\stb_image.cpp">
+      <Filter>Core\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OrthographicCamera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Particle System\Particle.cpp">
+      <Filter>Core\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Particle System\ParticleSystem.cpp">
+      <Filter>Core\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Player\Player.cpp">
+      <Filter>Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\Renderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\Renderer2D.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TextureAtlas.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UI\GUI.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Utils\Logger.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Utils\Raycast.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\World\Skybox.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\World\Structures\WorldStructures.cpp">
+      <Filter>Core\World\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\World\World.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\World\WorldGenerator.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

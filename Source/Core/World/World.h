@@ -29,7 +29,7 @@
 #include "../Particle System/Particle.h"
 #include "WorldGeneratorType.h"
 #include "WorldGenerator.h"
-#include "../Audio/Audio.h"
+
 
 namespace Minecraft
 {
@@ -121,6 +121,5 @@ namespace Minecraft
 
 		const std::string m_WorldName;
 		WorldGenerationType m_WorldGenType;
-		irrklang::ISoundEngine* m_SoundEngine;
 	};
 }

@@ -84,8 +84,6 @@ namespace Minecraft
 		std::cout << std::endl << "------      CREATING THE AUDIO ENGINE        ------" << std::endl;
 
 		// Create the sound engine
-		m_SoundEngine = irrklang::createIrrKlangDevice();
-
 		std::cout << std::endl;
 	}
 
@@ -462,6 +460,8 @@ namespace Minecraft
 	*/
 	void World::_PlayBlockSound(BlockType type, const glm::vec3& position)
 	{
+		return;
+		/*
 		const std::string& snd = BlockDatabase::GetBlockSoundPath(type);
 
 		if (snd.size() > 0)
@@ -471,6 +471,7 @@ namespace Minecraft
 			aud.p_Sound->setVolume(10.0f);
 			aud.p_Sound->setIsPaused(false);
 		}
+		*/
 	}
 
 	/*
@@ -478,6 +479,8 @@ namespace Minecraft
 	*/
 	void World::_SetListenerPosition()
 	{
+		return;
+		/*
 		const glm::vec3& position = p_Player->p_Position;
 		const glm::vec3& front = p_Player->p_Camera.GetFront();
 		const glm::vec3& up = p_Player->p_Camera.GetUp();
@@ -487,6 +490,7 @@ namespace Minecraft
 		irrklang::vec3df _up(up.x, up.y, up.z);
 
 		m_SoundEngine->setListenerPosition(_position, _front, _vps, _up);
+		*/
 	}
 
 	/*
